@@ -6,7 +6,8 @@
         "start-local": "webpack-dev-server --env.local --progress --hot --open",
         "start": "webpack-dev-server --progress --hot --open",
         "predeploy": "yarn build",
-        "deploy": "gh-pages -d build -b gh-pages"
+        "deploy": "gh-pages -d build -b gh-pages",
+        "build": "react-scripts build"
     },
     "dependencies": {
         "d3-request": "^1.0.5",
