@@ -99,7 +99,7 @@ export default function App({
             extruded: true,
             getPosition: (d) => [Number(d.longitude), Number(d.latitude)],
             pickable: true,
-            radius: 10000,
+            radius: 12000,
             upperPercentile,
             material,
 
